@@ -16,10 +16,12 @@ main {
 
 ul {
     padding: 10px;
+    color: #1a2639;
 }
 
 li {
     text-align: left;
+    color: #1a2639;
 }
 
 #family {
