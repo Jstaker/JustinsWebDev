@@ -15,10 +15,12 @@ main {
   } 
 
   h2 {
+    text-align: center;
     color: #1a2639;
   }
 
   hr {
+    text-align: center;
     width: 100%;
     background-color: #1a2639;
   }
