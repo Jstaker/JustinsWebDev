@@ -18,6 +18,10 @@ main {
     color: #1a2639;
   }
 
+  hr {
+    width: 75%;
+  }
+
 ul {
     padding: 10px;
     color: #1a2639;
