@@ -14,6 +14,10 @@ main {
     text-align: center;
   }
 
+hr {
+  align-items: center;
+}  
+
 ul {
     padding: 10px;
 }
