@@ -5,3 +5,13 @@
 @media (min-width: 601px) {
     
 }
+
+#family {
+    position: relative;
+}
+
+#family img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
