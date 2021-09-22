@@ -16,6 +16,14 @@
         margin: 0;
         text-align: center;
       } 
+
+      .grid {
+            margin: 5rem auto;
+            width: min(90%, 75rem);
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+        }
+      }
     
       h2 {
         text-align: center;
