@@ -1,6 +1,7 @@
 @media (min-width: 80px){
     #family {
         float: right;  
+        display: inline;
     }
 }
 
