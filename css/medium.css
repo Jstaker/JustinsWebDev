@@ -51,6 +51,7 @@
       width: 300px;
       height: 400px;
       border-radius: 10px;
+      float: center;
     }
 
     #goodbooks {
