@@ -5,11 +5,20 @@
         text-align: center;
         background-color: #d9dad7;
         margin: auto;
-        width: 75%;
+        width: 25%;
         padding: 10px;
         color: #d9dad7;
     }
     
+    .design-principles {
+        text-align: center;
+        background-color: #d9dad7;
+        margin: auto;
+        width: 90%;
+        padding: 10px;
+        color: #d9dad7;
+    }
+
     main {
         width: 320px;
         padding: 10px;
