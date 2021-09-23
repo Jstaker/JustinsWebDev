@@ -18,8 +18,6 @@
       } 
 
       .grid {
-            margin: 5rem auto;
-            width: min(90%, 75rem);
             display: grid;
             grid-template-columns: 33% 33% 33%;
         }
