@@ -1,5 +1,7 @@
 
-    body { 
+   @media (min-width: 1000px){
+   
+   body { 
         text-align: center;
         font-family: 'Bebas Neue', cursive;
         background-color: #d9dad7;
@@ -23,22 +25,8 @@
         padding: 10px;
         margin: 0;
         text-align: center;
-      } 
-
-
-    @media (min-width: 1000px){
-      .grid {
-        grid-template-columns: repeat(3, 1fr);
-            }
-          }
-
-    @media (min-width: 500px){
-        .grid {
-          grid-template-columns: repeat(1, 1fr);
-          }
-          }
-      
-
+    }
+    
       
     .grid {
         margin: 5rem auto;
@@ -118,3 +106,4 @@
     
     
 
+  }
