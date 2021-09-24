@@ -1,4 +1,4 @@
-@media (min-width: 800px){
+@media only screen and(min-width: 600px){
     body { 
         text-align: center;
         font-family: 'Bebas Neue', cursive;
@@ -13,7 +13,7 @@
         text-align: center;
         background-color: #d9dad7;
         margin: auto;
-        width: 100%;
+        width: 75%;
         padding: 10px;
         color: #d9dad7;
     }
