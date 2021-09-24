@@ -26,17 +26,17 @@
       } 
 
 
-      @media (min-width: 1000px){
-        .grid {
-            grid-template-columns: repeat(3, 1fr)
-          }
+    @media (min-width: 1000px){
+      .grid {
+        grid-template-columns: repeat(3, 1fr)
+            }
           }
 
-          @media (min-width: 600px){
-            .grid {
-                grid-template-columns: repeat(1, 1fr)
-              }
-              }
+    @media (min-width: 500px){
+        .grid {
+          grid-template-columns: repeat(1, 1fr)
+          }
+          }
       
 
       
