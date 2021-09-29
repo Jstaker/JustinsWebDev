@@ -113,4 +113,10 @@
       overflow: hidden;
       border-radius: 10px;
     }
+
+    #logo {
+      width: 150px;
+      height: 250px;
+      border-radius: 10px;
+    }
       }
