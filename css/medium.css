@@ -54,7 +54,6 @@
     }
     
     ul {
-        display: inline;
         padding: 10px;
         color: #1a2639;
     }
@@ -109,6 +108,7 @@
     
 
     .plan-nav {
+      display: inline;
       background-color: #c24d2c;
       overflow: hidden;
       border-radius: 10px;
