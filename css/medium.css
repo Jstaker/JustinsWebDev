@@ -111,14 +111,5 @@
       overflow: hidden;
     }
 
-    .plan-nav a {
-      float: left;
-      color: #1a2639;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-
 
   }
