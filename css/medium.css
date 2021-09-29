@@ -109,6 +109,8 @@
     .plan-nav {
       background-color: #c24d2c;
       overflow: hidden;
+      border-radius: 10px;
+  
     }
 
 
