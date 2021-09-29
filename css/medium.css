@@ -63,6 +63,10 @@
         text-align: left;
         color: #1a2639;
     }
+
+    .plan-li {
+      display: inline;
+    }
     
     #family {
       width: 300px;
@@ -108,7 +112,6 @@
     
 
     .plan-nav {
-      display: inline;
       background-color: #c24d2c;
       overflow: hidden;
       border-radius: 10px;
