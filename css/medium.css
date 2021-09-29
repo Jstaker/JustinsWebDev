@@ -59,6 +59,7 @@
     }
     
     li {
+        display: inline;
         text-align: left;
         color: #1a2639;
     }
@@ -110,8 +111,9 @@
       background-color: #c24d2c;
       overflow: hidden;
       border-radius: 10px;
-  
     }
+
+
 
 
   }
