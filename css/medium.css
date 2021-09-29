@@ -105,6 +105,16 @@
       margin-top: 10em;
     }
     
+    .plan-nav {
+      margin: 5rem auto;
+        width: min(90%, 75rem);
+        padding: 10px;
+        text-align: left;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        grid-auto-rows: 0px;
+    }
     
 
   }
