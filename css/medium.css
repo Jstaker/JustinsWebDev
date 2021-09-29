@@ -54,6 +54,7 @@
     }
     
     ul {
+        display: inline;
         padding: 10px;
         color: #1a2639;
     }
