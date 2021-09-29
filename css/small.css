@@ -41,6 +41,12 @@
         text-align: left;
         color: #1a2639;
     }
+
+    h3 {
+      text-align: center;
+        color: #1a2639;
+        width: auto;
+    }
     
     hr {
         text-align: left;
