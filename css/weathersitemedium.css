@@ -13,7 +13,7 @@
     }
 
     main {
-        width: 320px;
+        width: 100%;
         padding: 10px;
         margin: auto;
         text-align: left;
@@ -85,7 +85,4 @@
         color: #d9dad7;
       }
 
-      .nav-list {
-          width: 100%;
-      }
 }
