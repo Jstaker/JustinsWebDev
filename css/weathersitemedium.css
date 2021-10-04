@@ -1,5 +1,7 @@
 @media only screen and(min-width: 1000px) {
 
+    /* HTML Standard Tag Rules */
+
     body {
         text-align: left;
         font-family: 'Bebas Neue', cursive;
@@ -59,5 +61,20 @@
         border-radius: 10px;
         padding: 10px;
       }
+
+      /*object rules*/
+
+      .weather-nav{
+        background-color: #c24d2c;
+        overflow: hidden;
+        border-radius: 10px;
+      }
+
+      .site-links{
+          display: inline;
+      }
     
+      .link-rules{
+        color: #d9dad7;
+      }
 }
