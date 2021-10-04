@@ -6,14 +6,13 @@
         text-align: left;
         font-family: 'Bebas Neue', cursive;
         background-color: #d9dad7;
-        /*margin: auto;*/ 
         width: 100%;
         padding: 10px;
         color: #d9dad7;
     }
 
     main {
-        width: 320px;
+       /* width: 320px;*/
         padding: 10px;
         margin: auto;
         text-align: left;
