@@ -84,4 +84,8 @@
       .link-rules{
         color: #d9dad7;
       }
+
+      .nav-list {
+          width: 100%;
+      }
 }
