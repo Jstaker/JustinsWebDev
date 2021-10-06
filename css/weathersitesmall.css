@@ -88,7 +88,7 @@
 
       .responsive {
         display: grid;
-        background-color: #c24d2c;
+        background-color: black;
         overflow: hidden;
         grid-template-rows: repeat(6, 25px);
         justify-content: center;
