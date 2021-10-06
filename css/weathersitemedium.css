@@ -81,13 +81,14 @@
         border-radius: 10px;
         margin: auto;
         font-size: 18px;
-        display: flex;
-        justify-content: space-between;
+        
 
       }
 
       .site-links{
-          display: inline;
+        display: inline;
+        display: flex;
+        justify-content: space-between;
       }
     
       .link-rules{
