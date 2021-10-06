@@ -84,11 +84,15 @@
         grid-template-rows: repeat(6, 25px);
         justify-content: center;
         list-style-type: none;
-        
       }
 
       .responsive {
-          display: none;
+        display: grid;
+        background-color: #c24d2c;
+        overflow: hidden;
+        grid-template-rows: repeat(6, 25px);
+        justify-content: center;
+        list-style-type: none;
       }
 
       .weather-nav a:hover{
