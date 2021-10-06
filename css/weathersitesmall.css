@@ -61,7 +61,8 @@
       /*object rules*/
 
       .site-head{
-        display: flex;
+        display: grid;
+        grid-template-rows: auto;
     }
 
       .weather-nav{
