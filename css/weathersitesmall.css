@@ -78,10 +78,11 @@
 
 
       .weather-nav{
+        text-align: center;
         display: flex;
         background-color: #c24d2c;
         overflow: hidden;
-        text-align: center;
+        
       }
 
       .responsive {
