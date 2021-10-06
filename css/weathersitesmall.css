@@ -73,9 +73,7 @@
       .site-links{
         display: inline;
         display: grid;
-        grid-template-rows: repeat(6, 1fr);
-        gap: 10px;
-        grid-auto-rows: 0px;
+        grid-template-rows: repeat(6, 16.6 16.6 16.6 16.6 16.6 16.6);
       }
     
       .link-rules{
