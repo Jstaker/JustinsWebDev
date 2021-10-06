@@ -67,7 +67,7 @@
 
       .site-head{
           display: grid;
-          grid-template-columns: repeat(10, 90);
+          grid-template-columns: repeat(auto, auto);
       }
 
       #logo {
