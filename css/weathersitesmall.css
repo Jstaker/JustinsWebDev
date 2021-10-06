@@ -79,6 +79,7 @@
 
       .weather-nav{
         display: grid;
+        text-align: center;
         background-color: #c24d2c;
         overflow: hidden;
         padding: 5px;
