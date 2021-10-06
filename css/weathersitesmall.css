@@ -81,6 +81,7 @@
         display: flex;
         background-color: #c24d2c;
         overflow: hidden;
+        text-align: center;
       }
 
       .responsive {
@@ -97,7 +98,6 @@
 
       .site-links{
         display: inline;
-        text-align: center;  
         padding: 5px;
         display: grid;
         grid-template-rows: repeat(6, auto);
