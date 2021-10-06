@@ -81,7 +81,6 @@
         display: grid;
         background-color: #c24d2c;
         overflow: hidden;
-        padding: 5px;
         grid-template-rows: repeat(6, 25px);
         justify-content: center;
         list-style-type: none;
