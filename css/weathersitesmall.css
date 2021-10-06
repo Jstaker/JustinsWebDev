@@ -81,8 +81,8 @@
         display: grid;
         background-color: #c24d2c;
         overflow: hidden;
-        padding: 10px;
-        grid-template-rows: repeat(6, auto);
+        padding: 5px;
+        grid-template-rows: repeat(6, 10px)
         justify-content: center;
         
       }
