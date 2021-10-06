@@ -67,6 +67,11 @@
         overflow: hidden;
       }
 
+      .weather-nav a:hover{
+        background-color: #1a2639;
+        padding: 5px;
+    }
+
       .site-links{
         display: inline;
         text-align: center;  
