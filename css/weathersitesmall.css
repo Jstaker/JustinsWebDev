@@ -86,10 +86,6 @@
         list-style-type: none;
       }
 
-      .weather-nav :first-child {
-        display: none;
-      }
-
       .responsive {
         display: grid;
         background-color: #c24d2c;
