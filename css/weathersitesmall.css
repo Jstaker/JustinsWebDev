@@ -73,7 +73,7 @@
       .site-links{
         display: inline;
         text-align: center;  
-        padding: 7px;
+        padding: 5px;
         display: grid;
         grid-template-rows: repeat(6, 16.6 16.6 16.6 16.6 16.6 16.6);
       }
