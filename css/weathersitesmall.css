@@ -84,6 +84,7 @@
         padding: 5px;
         grid-template-rows: repeat(6, 25px);
         justify-content: center;
+        list-style-type: none;
         
       }
 
