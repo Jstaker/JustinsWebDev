@@ -65,7 +65,6 @@
     }
 
       .weather-nav{
-        text-align: center;  
         background-color: #c24d2c;
         overflow: hidden;
         border-radius: 10px;
@@ -73,6 +72,7 @@
 
       .site-links{
         display: inline;
+        text-align: center;  
         display: grid;
         grid-template-rows: repeat(6, 16.6 16.6 16.6 16.6 16.6 16.6);
       }
