@@ -12,6 +12,10 @@
         color: #d9dad7;
     }
 
+    nav {
+      text-align: center;
+    }
+
     main {
         margin: auto;
         text-align: left;
