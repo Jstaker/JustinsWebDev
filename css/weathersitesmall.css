@@ -62,6 +62,20 @@
         display: flex;
     }
 
+    #logo {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        margin-top: 25px;
+      }
+
+    .catchphrase{
+        font-size: medium; 
+        font-style: italic; 
+        margin-top: -55px;
+        margin-left: 15px;
+      }
+
       .weather-nav{
         background-color: #c24d2c;
         overflow: hidden;
@@ -85,12 +99,6 @@
         color: #d9dad7;
       }
 
-      #logo {
-        width: 100px;
-        height: 100px;
-        border-radius: 10px;
-        margin-top: 25px;
-      }
 
       .forecast{
         margin: 10px;
