@@ -65,6 +65,10 @@
 
       /*object rules*/
 
+      .site-head{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+      }
 
       #logo {
         width: 100px;
