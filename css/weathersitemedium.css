@@ -66,8 +66,7 @@
       /*object rules*/
 
       .site-head{
-          display: grid;
-          grid-template-columns: repeat(2, 2fr);
+          display: flex;
       }
 
       #logo {
