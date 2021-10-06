@@ -81,14 +81,14 @@
         display: grid;
         background-color: #c24d2c;
         overflow: hidden;
-        grid-template-rows: repeat(6, 25px);
+        grid-template-rows: repeat(1, 25px);
         justify-content: center;
         list-style-type: none;
       }
 
       .responsive {
         display: grid;
-        background-color: black;
+        background-color: #c24d2c;
         overflow: hidden;
         grid-template-rows: repeat(6, 25px);
         justify-content: center;
