@@ -81,6 +81,10 @@
         margin-left: 15px;
       }
 
+      .navigation{
+        display: block;
+      }
+
       .weather-nav{
         background-color: #c24d2c;
         overflow: hidden;
