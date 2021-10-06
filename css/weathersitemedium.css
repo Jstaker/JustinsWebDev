@@ -74,6 +74,13 @@
         margin-top: 25px;
       }
 
+      .catchphrase{
+        font-size: medium; 
+        font-style: italic; 
+        margin-top: -55px;
+        margin-left: 15px;
+      }
+
       .weather-nav{
         background-color: #c24d2c;
         overflow: hidden;
