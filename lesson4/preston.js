@@ -1,3 +1,3 @@
 function toggleMenu() {
-    document.getElementById("nav-list").classList.toggle("nav-hide");
+    document.getElementsByClassName("weather-nav")[0].classList.toggle("responsive");
 }

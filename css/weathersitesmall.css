@@ -76,9 +76,6 @@
         margin-left: 15px;
       }
 
-      .navigation{
-        display: flex;
-      }
 
       .navigation li:first-child {
           display: none;
@@ -87,13 +84,18 @@
       .navigation li {
         display: block;
         flex: 1 1 100%;
-        
+
       }
 
 
       .weather-nav{
+        display: flex;
         background-color: #c24d2c;
         overflow: hidden;
+      }
+
+      .responsive {
+          display: none;
       }
 
       .weather-nav a:hover{
