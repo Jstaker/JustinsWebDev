@@ -12,10 +12,6 @@
         color: #d9dad7;
     }
 
-    nav {
-      text-align: center;
-    }
-
     main {
         margin: auto;
         text-align: left;
@@ -83,11 +79,10 @@
 
       .weather-nav{
         display: grid;
-        text-align: center;
         background-color: #c24d2c;
         overflow: hidden;
         padding: 5px;
-        grid-template-rows: repeat(6, auto)
+        grid-template-rows: repeat(6, auto);
         
       }
 
