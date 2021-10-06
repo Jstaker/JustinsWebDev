@@ -68,12 +68,12 @@
         background-color: #c24d2c;
         overflow: hidden;
         border-radius: 10px;
-        display: grid;
-        grid-template-rows: repeat(6, 1fr);
       }
 
       .site-links{
-          display: inline;
+        display: inline;
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
       }
     
       .link-rules{
