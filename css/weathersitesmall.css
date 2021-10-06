@@ -65,6 +65,7 @@
     }
 
       .weather-nav{
+        text-align: center;  
         background-color: #c24d2c;
         overflow: hidden;
         border-radius: 10px;
