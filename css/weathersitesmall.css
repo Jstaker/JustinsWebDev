@@ -81,6 +81,8 @@
         display: flex;
         background-color: #c24d2c;
         overflow: hidden;
+        padding: 5px;
+        grid-template-rows: repeat(6, auto)
         
       }
 
@@ -94,14 +96,6 @@
         border-radius: 5px;
     }
 
-
-
-      .site-links{
-        display: inline;
-        padding: 5px;
-        display: grid;
-        grid-template-rows: repeat(6, auto);
-      }
     
       .link-rules{
         color: #d9dad7;
