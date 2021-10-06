@@ -47,7 +47,7 @@
     }
 
     header {
-        background-color: #3e4a61;  
+        background-color: #1a2639;  
         border-radius: 10px;
         padding: 10px;
         margin: auto;
@@ -57,7 +57,7 @@
       
     footer {
         text-align: left;
-        background-color: #3e4a61;  
+        background-color: #1a2639;  
         border-radius: 10px;
         padding: 10px;
         margin: auto;
@@ -103,7 +103,7 @@
         padding: 15px;
         color: #d9dad7;
         font-style: italic;
-        background-color: #1a2639;
+        background-color: #3e4a61;
       }
 
       .content-box{
@@ -111,7 +111,7 @@
           padding: 15px;
           color: #d9dad7;
           font-style: italic;
-          background-color: #1a2639;
+          background-color: #3e4a61;
       }
 
 }
