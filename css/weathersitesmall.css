@@ -62,7 +62,9 @@
 
       /*object rules*/
 
-    
+      .site-head{
+        display: flex;
+    }
 
       .weather-nav{
         background-color: #c24d2c;
