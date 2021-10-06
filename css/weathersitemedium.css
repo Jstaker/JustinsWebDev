@@ -1,4 +1,4 @@
-/*@media only screen and (min-width: 1000px) {*/
+@media only screen and (min-width: 1000px) {
 
     /* HTML Standard Tag Rules */
 
@@ -65,6 +65,10 @@
 
       /*object rules*/
 
+      .site-head {
+          display: inline;
+      }
+
       #logo {
         width: 100px;
         height: 100px;
@@ -86,4 +90,4 @@
         color: #d9dad7;
       }
 
-/*}*/
+}
