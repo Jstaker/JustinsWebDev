@@ -61,14 +61,15 @@
       /*object rules*/
 
       .site-head{
-        display: grid;
-        grid-template-rows: auto;
+        display: flex;
     }
 
       .weather-nav{
         background-color: #c24d2c;
         overflow: hidden;
         border-radius: 10px;
+        display: grid;
+        grid-template-rows: auto;
       }
 
       .site-links{
