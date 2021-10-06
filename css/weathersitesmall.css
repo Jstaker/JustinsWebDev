@@ -81,9 +81,13 @@
         display: grid;
         background-color: #c24d2c;
         overflow: hidden;
-        grid-template-rows: repeat(1, 25px);
+        grid-template-rows: repeat(6, 25px);
         justify-content: center;
         list-style-type: none;
+      }
+
+      .weather-nav :first-child {
+        display: none;
       }
 
       .responsive {
