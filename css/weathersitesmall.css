@@ -89,6 +89,10 @@
 
 
       .weather-nav{
+        display: none;
+      }
+
+      .responsive {
         display: grid;
         background-color: #c24d2c;
         color: #d9dad7;
@@ -96,10 +100,6 @@
         grid-template-rows: repeat(6, 25px);
         justify-content: center;
         list-style-type: none;
-      }
-
-      .responsive {
-        display:none;
       }
 
       .weather-nav a:hover{
