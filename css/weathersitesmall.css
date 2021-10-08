@@ -86,7 +86,7 @@
       }
 
 
-      #weather-nav{
+      .weather-nav{
         display: grid;
         background-color: #c24d2c;
         overflow: hidden;
@@ -99,7 +99,7 @@
         display:none;
       }
 
-      #weather-nav a:hover{
+      .weather-nav a:hover{
         background-color: #1a2639;
         padding: 5px;
         border-radius: 5px;
