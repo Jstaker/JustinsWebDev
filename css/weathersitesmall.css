@@ -89,6 +89,7 @@
       .weather-nav{
         display: grid;
         background-color: #c24d2c;
+        color: #d9dad7;
         overflow: hidden;
         grid-template-rows: repeat(6, 25px);
         justify-content: center;
