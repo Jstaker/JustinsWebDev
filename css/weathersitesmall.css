@@ -77,9 +77,9 @@
       }
 
       .nav-button{
-        display: grid;
-        grid-template-columns: auto;
-        justify-content: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         background-color: #c24d2c;
         color: #d9dad7;
       }
