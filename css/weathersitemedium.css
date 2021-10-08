@@ -99,7 +99,7 @@
       .weather-nav a:hover{
           background-color: #1a2639;
           border-radius: 10px;
-          margin: auto;
+          padding: 10px;
       }
 
       .site-links{
