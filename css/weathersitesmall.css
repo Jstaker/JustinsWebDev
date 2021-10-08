@@ -76,6 +76,12 @@
         margin-left: 15px;
       }
 
+      .nav-button{
+        justify-content: center;
+        background-color: #c24d2c;
+        color: #d9dad7;
+      }
+
 
       .weather-nav{
         display: grid;
