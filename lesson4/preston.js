@@ -16,4 +16,4 @@ var lastModifiedFormatted = day + ', ' +  month + " " + lastModified.getDate() +
 
 // Display copyright year and date last modified to footer of HTML document.
 document.getElementById("dateLastModified").textContent = lastModifiedFormatted;
-document.getElementById("copyrightYear").textContent = year;
+
