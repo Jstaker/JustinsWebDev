@@ -1,9 +1,10 @@
+//toggle menu on mobile view
 function toggleMenu() {
     document.getElementsByClassName("weather-nav")[0].classList.toggle("responsive");
 }
 
 
-//date
+//last updated js
 var day = new Array(
     "Sunday", "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"
 );
@@ -21,4 +22,5 @@ var y = month[y];
 
 var lastUpdatedFormat= x + ", " + lastUpdated.getDate() + " " + y + " " + lastUpdated.getFullYear();
 
-document.getElementById("toDate").textContent=lastUpdatedFormat;
+//output
+document.getElementById("displayDate").textContent=lastUpdatedFormat;
