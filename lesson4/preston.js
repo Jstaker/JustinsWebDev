@@ -19,6 +19,6 @@ var x = day[x];
 var y = lastUpdated.getMonth();
 var y = month[y];
 
-var lastUpdatedFormat=x+", "+lastUpdated.getDate()+", "+y+" "+lastUpdated.getFullYear();
+var lastUpdatedFormat= x + ", " + lastUpdated.getDate() + " " + y + " " + lastUpdated.getFullYear();
 
 document.getElementById("toDate").textContent=lastUpdatedFormat;
