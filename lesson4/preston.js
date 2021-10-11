@@ -12,7 +12,7 @@ var day = weekday[day];
 var month = lastModified.getMonth();
 var month = months[month];
 
-var lastModifiedFormatted = day + ', ' + lastModified.getDate() + ' ' + month + " " + lastModified.getFullYear();
+var lastModifiedFormatted = day + ', ' +  month + " " + lastModified.getDate() + lastModified.getFullYear();
 
 // Display copyright year and date last modified to footer of HTML document.
 document.getElementById("dateLastModified").textContent = lastModifiedFormatted;
