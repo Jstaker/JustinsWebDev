@@ -4,13 +4,13 @@ function toggleMenu() {
 
 
 //date
-var day = new Array[
+var day = new Array(
     "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
-];
+);
 
-var month = new Array[
+var month = new Array(
     "January","February","March","April","May","June","July","August","Sepetember","October","November","December"
-];
+);
 
 const year = new Date().getFullYear();
 const lastUpdated = new Date(document.lastUpdated);
