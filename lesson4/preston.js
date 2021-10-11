@@ -5,7 +5,7 @@ function toggleMenu() {
 
 //date
 var day = new Array(
-    "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+    "Sunday", "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"
 );
 
 var month = new Array(
