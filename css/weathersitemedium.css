@@ -126,6 +126,7 @@
 
       .hero{
         display: grid;
+        grid-template-columns: auto;
       }
 
       .summary{
