@@ -51,7 +51,6 @@
         color: #d9dad7;
         padding-left: 20px;
         padding-right: 20px;
-        list-style-type: none;
     }
 
     header {
@@ -102,6 +101,7 @@
         font-size: 24px;
         display: flex;
         justify-content: center;
+        list-style-type: none;
       }
 
       .weather-nav a:hover{
@@ -124,14 +124,6 @@
         padding-right: 20px;
         
       }*/
-
-  
-
-      #preston.link-rules a[title~=Preston]{
-        background-color: #1a2639;
-        padding: 5px;
-        border-radius: 5px;
-      }
 
       .forecast{
         margin: 10px;
