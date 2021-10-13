@@ -133,7 +133,10 @@
         grid-template-rows:repeat(5, 35px); 
         height: 350px;
         width: 300px;
+        float: left;
       }
+
+
 
       .forecast{
         margin: 10px;
