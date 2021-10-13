@@ -117,6 +117,8 @@
       .link-preston{
         color: #d9dad7;
         background-color:#1a2639;
+        padding: 5px;
+        border-radius: 5px;
       }
 
       .link-soda{
