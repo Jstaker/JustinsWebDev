@@ -102,6 +102,12 @@
           padding: 10px;
       }
 
+      .weather-nav .active {
+        background-color: #1a2639;
+        padding: 5px;
+        border-radius: 5px;
+      }
+
       .site-links{
         display: inline;
         padding-left: 20px;
@@ -109,12 +115,9 @@
         
       }
 
-    
-      .link-rules{
-        color: #d9dad7;
-      }
+  
 
-      #preston.link-rules{
+      #preston.link-rules a[title~=Preston]{
         background-color: #1a2639;
         padding: 5px;
         border-radius: 5px;
