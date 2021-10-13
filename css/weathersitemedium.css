@@ -110,31 +110,14 @@
       }
 
     
-      .link-home{
+      .link-rules{
         color: #d9dad7;
       }
 
-      .link-preston{
-        color: #d9dad7;
-        background-color:#1a2639;
+      .active, .link-rules {
+        background-color: #1a2639;
         padding: 5px;
         border-radius: 5px;
-      }
-
-      .link-soda{
-        color: #d9dad7;
-      }
-
-      .link-fish{
-        color: #d9dad7;
-      }
-
-      .link-storm{
-        color: #d9dad7;
-      }
-
-      .link-gallery{
-        color: #d9dad7;
       }
 
       .forecast{
