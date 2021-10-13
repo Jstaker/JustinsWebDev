@@ -131,8 +131,8 @@
       section.summary{
         display: grid;
         grid-template-rows:repeat(5, 35px); 
-        height: 350px;
-        width: 300px;
+        height: 250px;
+        width: 200px;
         float: left;
       }
 
