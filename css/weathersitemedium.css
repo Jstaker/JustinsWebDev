@@ -29,6 +29,13 @@
         width: auto;
     }
     
+    section{
+        text-align: left;
+        background-color: #3e4a61;
+        color: #d9dad7;
+        margin: auto;
+    }
+
     hr {
         text-align: left;
         width: 100%;
@@ -116,6 +123,11 @@
         color: #d9dad7;
         padding: 5px;
         border-radius: 5px;
+      }
+
+      section.summary{
+        display: grid;
+        grid-template-columns: 3fr, 2fr;
       }
 
       .forecast{
