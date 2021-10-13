@@ -114,7 +114,11 @@
         color: #d9dad7;
       }
 
-      .active, .link-rules {
+      #preston.link-rules a[title~=Preston]
+      #soda.link-rules a[title~=Soda]
+      #fish.link-rules a[title~=Fish]
+      #storm.link-rules a[title~=Storm]
+      #gallery.link-rules a[title~=Gallery]{
         background-color: #1a2639;
         padding: 5px;
         border-radius: 5px;
