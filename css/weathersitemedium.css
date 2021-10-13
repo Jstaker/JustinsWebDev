@@ -124,6 +124,14 @@
         height: 370px;
       }
 
+      .summary{
+        float: left;
+        background-color: #3e4a61;
+        color: #d9dad7;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
 
 
       .forecast{
