@@ -124,6 +124,10 @@
         height: 370px;
       }
 
+      .hero{
+        display: grid;
+      }
+
       .summary{
         float: left;
         background-color: #3e4a61;
