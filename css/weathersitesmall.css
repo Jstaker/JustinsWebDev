@@ -44,6 +44,13 @@
         color: #1a2639;
     }
 
+    a {
+      display: inline;
+      color: #d9dad7;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
     header {
         background-color: #1a2639;  
         padding: 10px;
@@ -108,8 +115,11 @@
         padding: 5px;
     }
 
-    .link-rules{
+    .weather-nav .active {
+      background-color: #1a2639;
       color: #d9dad7;
+      padding: 5px;
+      border-radius: 5px;
     }
 
 
