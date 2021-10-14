@@ -161,6 +161,10 @@
       justify-content: center;
     }
 
+    .table {
+      display: none;
+    }
+
       
 
       .content-box{
