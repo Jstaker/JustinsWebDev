@@ -129,9 +129,9 @@
         background-color: #3e4a61;
         color: #d9dad7;
         border: 1px solid #333;
-        width: 960px;
+        width: 100%;
         height: 300px;
-        justify-content: center;
+        
       }
 
      /* .summary{
