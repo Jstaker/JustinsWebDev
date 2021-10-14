@@ -17,6 +17,10 @@
         text-align: left;
     }
 
+    br{
+      color: black;
+    }
+
     h2 {
         text-align: center;
         color: #1a2639;
@@ -161,7 +165,7 @@
 
       .fiveday{
         background-color: #3e4a61;
-        color: #c24d2c;
+        color: #d9dad7;
       }
 
       .table{
