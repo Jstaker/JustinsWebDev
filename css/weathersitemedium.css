@@ -150,6 +150,9 @@
         padding: 10px;
         margin: auto;
         border-radius: 5px;
+        border: 1px #1a2639;
+        box-shadow: 0 0 30px #333;
+        
         list-style-type: none;
         justify-content: center;
       }
