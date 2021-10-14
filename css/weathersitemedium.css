@@ -18,12 +18,12 @@
     }
 
     br {
-      border: 3px black;
+      border: 10px black;
     }
 
     img {
-      width: 15px;
-      height: 15px;
+      width: 30px;
+      height: 30px;
     }
 
     h2 {
