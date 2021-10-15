@@ -230,7 +230,8 @@
       }
 
       .contact-info {
-        margin: 0px;
+        border: 10px;
+        margin: 10px auto;
         padding: 10px;
         background-color: #c24d2c;
         color: #d9dad7;
