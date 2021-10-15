@@ -198,8 +198,6 @@
 
       .fiveday{
         border: 10px black;
-        width: 700px;
-        height: 900px;
       }
 
       .fivecast-style {
@@ -210,6 +208,8 @@
       .th {
         border-style: solid;
         border-radius: 10px;
+        width: 560px;
+        height: 975px;
       }
 
       #october {
