@@ -213,8 +213,7 @@
         width: 100%;
         height: 250px;
         border-radius: 10px;
-        display: inline;
-        overflow: hidden;
+        overflow-wrap: break-word;
       }
 
 }
