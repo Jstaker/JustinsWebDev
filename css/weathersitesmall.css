@@ -108,6 +108,7 @@
         grid-template-rows: repeat(6, 25px);
         justify-content: center;
         list-style-type: none;
+        margin: auto;
       }
 
       .weather-nav a:hover{
