@@ -44,6 +44,10 @@
         width: 100%;
         background-color: #1a2639;
     }
+
+    p {
+      color: #d9dad7;
+    }
     
     ul {
         padding: 10px;
