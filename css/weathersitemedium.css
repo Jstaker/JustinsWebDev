@@ -221,6 +221,14 @@
         height: 300px;
       }
 
+      #map {
+        float: left;
+        margin: 10px;
+        width: 400px;
+        height: 250px;
+        box-shadow: 0 0 30px #333;
+      }
+
       .contact-info {
         margin: 10px auto;
         padding: 10px;
