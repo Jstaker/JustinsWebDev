@@ -24,7 +24,7 @@ var lastModifiedFormatted = day + ', ' +  month + " " + lastModified.getDate() +
 document.getElementById("dateLastModified").textContent = lastModifiedFormatted;
 
 //display pancake day on saturday
-if (weekday == "Tuesday"){
+if (weekday == "Friday"){
     document.getElementById("pancakes").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."
 }else{
     document.getElementById("no-pancakes").innerHTML ="nothing here sorry"
