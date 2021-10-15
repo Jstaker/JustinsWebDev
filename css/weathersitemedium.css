@@ -185,6 +185,7 @@
       }
 
       #october {
+        float: right;
         position: absolute;
         border-radius: 10px;
         width: 250px;
