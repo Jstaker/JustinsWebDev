@@ -73,7 +73,6 @@
       }
       
     footer {
-        position: absolute;
         text-align: center;
         background-color: #1a2639;  
         padding: 10px;
@@ -186,8 +185,8 @@
       }
 
       #october {
-        width: 350px;
-        height: 350px;
+        width: 250px;
+        height: 250px;
       }
 
       .article-container {
