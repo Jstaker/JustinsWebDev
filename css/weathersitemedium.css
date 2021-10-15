@@ -203,6 +203,7 @@
       .fivecast-style {
         border-style: solid;
         border-radius: 10px;
+        padding: 5px;
       }
 
       .th {
