@@ -20,7 +20,7 @@
     
 
     br {
-      border: 10px black;
+      padding: 10px;
     }
 
     img {
@@ -230,7 +230,6 @@
       }
 
       .contact-info {
-        float: right;
         margin: 10px auto;
         padding: 10px;
         background-color: #3e4a61;
