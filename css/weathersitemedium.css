@@ -9,7 +9,6 @@
         margin: auto;
         width: 100%;
         color: #d9dad7;
-        padding: 15px;
 
     }
 
@@ -240,6 +239,7 @@
         height: 250px;
         border-radius: 10px;
         font-size: 22.5px;
+        top: 10px;
       }
 
       .contact-container {
