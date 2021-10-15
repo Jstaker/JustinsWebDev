@@ -162,6 +162,9 @@
     }
 
       
+    .five-day-h2 {
+      display: none;
+    }
 
     .table{
       display: none;
