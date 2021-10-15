@@ -230,6 +230,7 @@
       }
 
       .contact-info {
+        float: right;
         margin: 10px auto;
         padding: 10px;
         background-color: #3e4a61;
