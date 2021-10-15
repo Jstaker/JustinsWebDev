@@ -182,7 +182,8 @@
 
       .five-day-h2 {
         display: block;
-        padding: 15px;
+        padding-top: 30px;
+        padding-bottom: 5px;
       }
 
       .table{
