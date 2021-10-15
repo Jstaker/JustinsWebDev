@@ -232,6 +232,7 @@
       }
 
       .contact-info {
+        display: inline;
         margin: 10px auto;
         padding: 10px;
         background-color: #c24d2c;
