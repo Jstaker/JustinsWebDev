@@ -206,6 +206,7 @@
     .contact-container {
       margin: 10px auto;
       position: relative;
+      bottom: -90px;
       width: 100%;
       height: 235px;
       padding-top: 50px;
