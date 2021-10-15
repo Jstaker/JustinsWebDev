@@ -184,6 +184,26 @@
         border: 10px black;
       }
 
+      .article-container {
+        margin: 10px auto;
+        position: relative;
+        width: 960px;
+        height: 300px;
+      }
+
+      .article {
+        position: absolute;
+        background-color: #3e4a61;
+        color: #d9dad7;
+        padding: 10px;
+        margin: auto;
+        border-radius: 5px;
+        border: 2.5px #c24d2c;
+        box-shadow: 0 0 30px #333;
+        list-style-type: none;
+        justify-content: center;
+      }
+
       .content-box{
           margin: 10px;
           padding: 15px;
