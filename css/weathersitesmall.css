@@ -77,6 +77,16 @@
         margin-top: 25px;
       }
 
+      #pancakes {
+        display: block;
+        background-color: goldenrod;
+        color: #1a2639;
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+        font-size: 22px;
+      }
+
     .catchphrase{
         font-size: medium; 
         font-style: italic; 
