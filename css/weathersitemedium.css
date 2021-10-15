@@ -193,6 +193,7 @@
 
       .article {
         margin: 10px auto;
+        padding: 10px;
         background-color: #3e4a61;
         color: #d9dad7;
         border: 1px solid #333;
