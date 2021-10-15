@@ -245,6 +245,14 @@
       height: 230px;
     }
 
+
+    .icons {
+      height: 15px;
+      width: 15px;
+      border-radius: 3px;
+      margin-right: 5px;
+    }
+
     #social-media {
       width: 35px;
       height: 35px;
