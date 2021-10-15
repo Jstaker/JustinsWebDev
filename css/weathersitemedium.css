@@ -192,6 +192,8 @@
         width: 250px;
         height: 250px;
         right: 10px;
+        border: 2.5px #c24d2c;
+        box-shadow: 0 0 30px #333;
       }
 
       .article-container {
