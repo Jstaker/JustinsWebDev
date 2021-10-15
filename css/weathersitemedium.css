@@ -201,7 +201,8 @@
         position: relative;
         width: 960px;
         height: 300px;
-
+      }
+      
       .article {
         float: left;
         margin: 10px auto;
