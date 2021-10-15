@@ -187,7 +187,6 @@
       #october {
         float: right;
         margin: 10px;
-        position: absolute;
         border-radius: 10px;
         width: 250px;
         height: 250px;
@@ -203,7 +202,6 @@
       }
 
       .article {
-        float: left;
         margin: 10px auto;
         padding: 10px;
         background-color: #3e4a61;
