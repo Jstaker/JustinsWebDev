@@ -187,6 +187,7 @@
     .article-container {
       margin: 10px auto;
       position: relative;
+      bottom: 10px;
       width: 960px;
       height: 300px;
     }
