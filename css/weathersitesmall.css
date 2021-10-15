@@ -240,7 +240,7 @@
     }
 
     .preston-footer {
-      bottom: -130px;
+      position: relative;
     }
 
 }
