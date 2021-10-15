@@ -104,6 +104,10 @@
         font-size: 30px;
       }
 
+      #no-pancakes {
+        display: none;
+      }
+
       .catchphrase{
         font-size: medium; 
         font-style: italic; 
