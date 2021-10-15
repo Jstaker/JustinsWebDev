@@ -229,6 +229,7 @@
         width: 400px;
         height: 210px;
         box-shadow: 0 0 30px #333;
+        padding: 10px;
       }
 
       .contact-info {
