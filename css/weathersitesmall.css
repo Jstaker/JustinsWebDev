@@ -141,7 +141,7 @@
 
     .hero-container{
       margin: 10px auto;
-      position: absolute;
+      position: relative;
       width: 100%;
       height: 210px;
     }
