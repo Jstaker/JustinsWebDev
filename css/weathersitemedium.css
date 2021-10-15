@@ -188,7 +188,6 @@
         display: inline-table;
         background-color: #3e4a61;
         color: #d9dad7;
-        padding: 10px;
         margin: auto;
         text-align: center;
         width: 960px;
@@ -203,10 +202,12 @@
 
       .fivecast-style {
         border-style: solid;
+        border-radius: 10px;
       }
 
       .th {
         border-style: solid;
+        border-radius: 10px;
       }
 
       #october {
