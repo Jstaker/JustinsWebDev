@@ -184,6 +184,11 @@
         border: 10px black;
       }
 
+      #october {
+        width: 350px;
+        height: 350px;
+      }
+
       .article-container {
         margin: 10px auto;
         position: relative;
