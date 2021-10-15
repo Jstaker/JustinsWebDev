@@ -240,6 +240,8 @@
 
     .preston-footer {
       position: relative;
+      bottom: -650px;
+      width: inherit;
     }
 
 }
