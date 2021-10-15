@@ -3,6 +3,7 @@ function toggleMenu() {
     document.getElementsByClassName("weather-nav")[0].classList.toggle("responsive");
 }
 
+
 //display last updated
 var weekday = new Array(
     "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
