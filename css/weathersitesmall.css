@@ -147,6 +147,7 @@
     }
 
     .summary{
+      position: relative;
       background-color: #3e4a61;
       color: #d9dad7;
       padding: 5px;
