@@ -45,10 +45,6 @@
         background-color: #1a2639;
     }
 
-    p {
-      color: #d9dad7;
-    }
-    
     ul {
         padding: 10px;
         color: #1a2639;
@@ -196,25 +192,12 @@
       }
 
       .article {
-        position: absolute;
+        margin: 10px auto;
         background-color: #3e4a61;
         color: #d9dad7;
-        padding: 10px;
-        margin: auto;
-        border-radius: 5px;
-        border: 2.5px #c24d2c;
-        box-shadow: 0 0 30px #333;
-        list-style-type: none;
-        justify-content: center;
-      }
-
-      .content-box{
-          margin: 10px;
-          padding: 15px;
-          border-radius: 10px;
-          color: #d9dad7;
-          font-style: italic;
-          background-color: #3e4a61;
+        border: 1px solid #333;
+        width: 100%;
+        height: 300px;
       }
 
 }
