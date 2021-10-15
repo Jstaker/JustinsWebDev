@@ -205,6 +205,10 @@
         border-style: solid;
       }
 
+      .th {
+        border-style: solid;
+      }
+
       #october {
         float: right;
         margin: 10px;
