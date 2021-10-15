@@ -238,4 +238,8 @@
       padding: 8px;
     }
 
+    .preston-footer {
+      position: relative;
+    }
+
 }
