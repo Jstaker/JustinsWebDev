@@ -254,11 +254,13 @@
     }
 
     .social-media {
+      position: relative;
       width: 35px;
       height: 35px;
       border-radius: 10px;
       padding: 8px;
       padding-top: 1px;
+      float: right;
     }
 
     .preston-footer {
