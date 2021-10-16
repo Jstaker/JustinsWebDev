@@ -230,8 +230,9 @@
       margin: 10px;
       width: 180px;
       height: 105px;
-      padding: 35px;
-
+      padding: 5px;
+      padding-right: 50px;
+      padding-bottom: 60px;
     }
 
     .contact-info {
