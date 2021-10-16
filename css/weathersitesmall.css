@@ -226,7 +226,7 @@
     }
 
     #map {
-      float: top;
+      float: left;
       margin: 10px;
       width: 180px;
       height: 105px;
@@ -262,6 +262,7 @@
       padding: 8px;
       padding-top: 1px;
       float: right;
+      text-align: right;
     }
 
     .preston-footer {
