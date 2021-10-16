@@ -226,7 +226,7 @@
     }
 
     #map {
-      float: auto;
+      float: top;
       margin: 10px;
       width: 180px;
       height: 105px;
