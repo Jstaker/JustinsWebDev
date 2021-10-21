@@ -24,9 +24,28 @@ var lastModifiedFormatted = day + ', ' +  month + " " + lastModified.getDate() +
 document.getElementById("dateLastModified").textContent = lastModifiedFormatted;
 
 //display pancake day on saturday
-if (weekday == "Wednesday"){
+if (weekday == "Friday"){
     document.getElementById("pancakes").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
     document.getElementById("pancakes").style.display = "block";
 }else{
     document.getElementById("pancakes").style.display = "none";
 }
+
+
+//wind chill
+function buildWC(speed, temp) {
+    let wcTemp = document.getElementById('windchill');
+
+    let wc = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
+    console.log(wc);
+    wc = Math.floor(wc);
+
+    wc = (wc > temp)?temp:wc;
+    wcTemp.innerHTML = wc;
+
+}
+let speed = document.querySelector("speed").innerHTML;
+let temp = document.querySelector("temp").innerHTML;
+
+buildWC(speed, temp);
+
