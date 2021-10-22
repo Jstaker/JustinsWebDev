@@ -48,6 +48,6 @@ function buildWC(speed, temp){
     wc = (wc > temp) ? temp : wc;
     console.log(wc);
 
-    feelTemp.innerHTML = "Feels Like: &deg:F" + wc;
+    feelTemp.innerHTML = "Feels Like: " + wc + "\u00B0";
 }
 
