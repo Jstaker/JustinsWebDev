@@ -33,8 +33,8 @@ if (weekday == "Friday"){
 
 
 //wind chill
-let speed = 25;
-let temp = 10;
+let speed = 10;
+let temp = 76;
 buildWC(speed, temp);
 
 function buildWC(speed, temp){
