@@ -133,7 +133,7 @@
 
       
       .img-cont {
-        text-align: center;
+        justify-content: center;
       }
 
       .contact-container {
