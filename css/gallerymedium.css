@@ -26,6 +26,7 @@
     img {
       width: 425px;
       height: 320px;
+      text-align: center;
     }
 
     h2 {
@@ -133,7 +134,7 @@
 
       
       .img-cont {
-        justify-content: center;
+        text-align: center;
       }
 
       .contact-container {
