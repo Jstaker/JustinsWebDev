@@ -26,7 +26,6 @@
     img {
       width: 425px;
       height: 320px;
-      justify-content: center;
     }
 
     h2 {
@@ -133,8 +132,12 @@
       }
 
       
-      .img-cont {
+      .img-content {
         text-align: center;
+      }
+
+      .gallery {
+          text-align: center;
       }
 
       .contact-container {
