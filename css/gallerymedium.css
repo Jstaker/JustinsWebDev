@@ -132,7 +132,9 @@
       }
 
       
-
+      .img-cont {
+        text-align: center;
+      }
 
       .contact-container {
         margin: 10px auto;
