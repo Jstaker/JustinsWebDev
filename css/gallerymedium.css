@@ -139,13 +139,15 @@
         text-align: center;
       }
 
-      .gallery {
+      #gallery {
           display: grid;
           grid-template-columns: 1fr;
           gap: 10px;
       }
 
-      .gallery:hover{
+      
+
+      #gallery:hover{
           box-shadow: 0 0 50px #333;
       }
 
