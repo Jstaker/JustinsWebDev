@@ -139,6 +139,10 @@
           text-align: center;
       }
 
+      .gallery:hover{
+          box-shadow: #333;
+      }
+
       .contact-container {
         margin: 10px auto;
         position: relative;
