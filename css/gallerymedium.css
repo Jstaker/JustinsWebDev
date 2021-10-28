@@ -4,6 +4,7 @@
 
     body {
         text-align: center;
+        justify-content: center;
         font-family: 'Bebas Neue', cursive;
         background-color: #d9dad7;
         margin: auto;
