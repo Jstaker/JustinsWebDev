@@ -21,7 +21,7 @@
         border-style: solid;
     }
 
-    picture:hover {
+    picture a:hover {
         box-shadow: #333;
     }
 
