@@ -17,7 +17,7 @@
     }
 
     picture {
-        border: 8px #333;
+        border-style: 8px #333;
     }
 
     figcaption {
