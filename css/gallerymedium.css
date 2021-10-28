@@ -16,7 +16,10 @@
         text-align: center;
     }
 
-    
+    figcaption {
+        color: #1a2639;
+        background-color: #c24d2c;
+    }
 
     br {
       padding: 10px;
@@ -142,6 +145,8 @@
       .gallery:hover{
           box-shadow: 0 0 50px #333;
       }
+
+
 
       .contact-container {
         margin: 10px auto;
