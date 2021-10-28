@@ -19,6 +19,7 @@
     figcaption {
         color: #1a2639;
         background-color: #c24d2c;
+        width: auto;
     }
 
     br {
