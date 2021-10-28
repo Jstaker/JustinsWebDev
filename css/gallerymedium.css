@@ -151,7 +151,7 @@
       }
 
 
-      #img-content a:hover {
+      #img-content:hover {
         box-shadow: #333;
       }
 
