@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
 
     /* HTML Standard Tag Rules */
 
@@ -149,7 +149,7 @@
       #img-content {
         text-align: center;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 15px;
         margin: 100px;
       }
