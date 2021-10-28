@@ -137,13 +137,11 @@
       
       .img-content {
         text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3 1fr);
       }
 
-      #gallery {
-          display: grid;
-          grid-template-columns: repeat(3 1fr);
-          gap: 10px;
-      }
+     
 
       
 
