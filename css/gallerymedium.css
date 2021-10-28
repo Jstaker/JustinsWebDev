@@ -16,9 +16,13 @@
         text-align: center;
     }
 
+    picture {
+        border: 8px #333;
+    }
+
     figcaption {
-        color: #d9dad7;
-        background-color: #1a2639;
+        color: #1a2639;
+        background-color: #d9dad7;
         width: 425px;
     }
 
