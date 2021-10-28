@@ -21,10 +21,7 @@
         border-style: solid;
     }
 
-    picture a:hover {
-        box-shadow: #333;
-        background-color: black;
-    }
+    
 
     figcaption {
         color: #1a2639;
@@ -153,6 +150,10 @@
         margin: 100px;
       }
 
+
+      #img-content a:hover {
+        box-shadow: #333;
+      }
 
 
       .contact-container {
