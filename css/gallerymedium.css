@@ -135,14 +135,14 @@
       }
 
       
-      .img-content {
+      #img-content {
         text-align: center;
         display: grid;
         grid-template-columns: repeat(2 1fr);
         gap: 15px;
       }
 
-    .img-content:hover{
+    #img-content:hover{
         box-shadow: #333;
     }
 
