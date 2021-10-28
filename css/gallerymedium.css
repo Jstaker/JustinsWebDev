@@ -20,7 +20,6 @@
         color: #d9dad7;
         background-color: #1a2639;
         width: 425px;
-        position: relative;
     }
 
     br {
@@ -141,7 +140,7 @@
       }
 
       .gallery {
-          text-align: center;
+          display: grid;
       }
 
       .gallery:hover{
