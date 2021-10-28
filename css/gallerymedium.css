@@ -17,7 +17,8 @@
     }
 
     picture {
-        border: solid;
+        border: #1a2639;
+        border-style: solid;
     }
 
     figcaption {
