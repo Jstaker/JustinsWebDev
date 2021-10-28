@@ -23,6 +23,7 @@
 
     picture a:hover {
         box-shadow: #333;
+        background-color: black;
     }
 
     figcaption {
