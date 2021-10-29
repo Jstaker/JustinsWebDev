@@ -133,6 +133,17 @@
         list-style-type: none;
       }
 
+      .responsive {
+        display: grid;
+        background-color: #c24d2c;
+        color: #d9dad7;
+        overflow: hidden;
+        grid-template-rows: repeat(6, 25px);
+        justify-content: center;
+        list-style-type: none;
+        margin: auto;
+      }
+
       .weather-nav a:hover{
           background-color: #1a2639;
           border-radius: 10px;
