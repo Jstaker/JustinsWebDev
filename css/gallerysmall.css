@@ -19,6 +19,8 @@
     picture {
         border: #1a2639;
         border-style: solid;
+        text-align: left;
+        justify-content: left;
     }
 
    
