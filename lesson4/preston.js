@@ -51,3 +51,7 @@ function buildWC(speed, temp){
     feelTemp.innerHTML = "Feels Like: " + wc + "\u00B0 F";
 }
 
+function adjustSeverity(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}
+
