@@ -50,6 +50,10 @@
         padding: 5px;
     }
 
+    input {
+      font-family: 'Courier New', Courier, monospace;
+    }
+
     figcaption {
         color: #1a2639;
         background-color: #d9dad7;
