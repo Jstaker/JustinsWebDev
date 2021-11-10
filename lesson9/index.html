@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Homepage</title>
         <link rel="stylesheet" href="../css/normalize.css">
-        <link rel="stylesheet" href="../css/gallerysmall.css">
-        <link rel="stylesheet" href="../css/gallerymedium.css">
-        <link rel="stylesheet" href="../css/gallerylarge.css">
+        <link rel="stylesheet" href="../css/home-small.css">
+        <link rel="stylesheet" href="../css/home-medium.css">
+        <link rel="stylesheet" href="../css/home-large.css">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
     </head>
@@ -23,20 +23,28 @@
             <nav>
                 <button onclick="toggleMenu()" class="nav-button">&#9776; Menu</button>
                 <ul class="weather-nav">
-                    <li><a href="../index.html">Home</a></li>
+                    <li><a class="active" href="../index.html">Home</a></li>
                     <li><a href="../lesson4/preston.html">Preston</a></li>
                     <li><a href="#">Soda Springs</a></li>
                     <li><a href="#">Fish Haven</a></li>
                     <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
-                    <li><a class="active" href="#">Gallery</a></li>
+                    <li><a href="../lesson7/gallery.html">Gallery</a></li>
                 </ul>
             </nav>
-            <h2>Home</h2>
+
+        
+                <h2>Homepage</h2>
+                
+                <div class="cards"></div>
+
             
-            
-        </footer>
+            <footer class="preston-footer">
+                <div>
+                    <p>&copy; 2021 Cool Breeze | Justin Staker | Last Updated: <span id="dateLastModified"></span></p>
+                    
+                </div>
+            </footer> 
         <script src="../lesson4/preston.js"></script>
-        <script src="../lesson7/lazy.js"></script>
         <noscript> For full functionality of this site it is necessary to enable 
             JavaScript. Here are the <a href="https://www.enable-javascript.com/"
             >instructions how to enable JavaScript in your web browser</a>.</noscript>  

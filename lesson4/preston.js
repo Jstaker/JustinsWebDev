@@ -55,3 +55,51 @@ function adjustSeverity(rating) {
     document.getElementById("ratingvalue").innerHTML = rating;
 }
 
+
+
+
+/*json stuffs*/
+const requestURL = '';
+
+
+fetch(requestURL)
+  .then(function (response) {
+     if(response.ok) {
+         return response.json();
+     }
+    throw new ERROR('Network response was not ok');
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);  // temporary checking for valid response and data parsing
+  })
+.catch(function(error){
+   console.log('Fetch error: ', error.message);
+})
+
+const town = jsonObject['town'];
+
+for (let i = 0; i < town.length; i++ ) {
+    let card = document.createElement('section');
+    let name = document.createElement('h2');
+    let photo = document.createElement('img');
+    let motto = document.createElement('h4');
+    let yearFounded = document.createElement('p');
+    let currentPopulation = document.createElement('p');
+    let averageRainfall = document.createElement('p');
+    let events = document.createElement('p');
+
+    name.textContent = town[i].name;
+    motto.textContent = town[i].motto;
+    yearFounded.textContent = town[i].yearFounded;
+    currentPopulation.textContent = town[i].currentPopulation;
+    averageRainfall.textContent = town[i].averageRainfall;
+    
+
+
+
+card.appendChild(h2);
+
+document.querySelector('div.cards').appendChild(card);
+}
+
+image.setAttribute('src', prophets[i].imageurl);

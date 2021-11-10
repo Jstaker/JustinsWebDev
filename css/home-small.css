@@ -7,7 +7,7 @@
         background-color: #d9dad7;
         margin: auto;
         width: 100%;
-        color: #d9dad7;
+        color: #1a2639;
 
     }
 
@@ -16,7 +16,9 @@
         text-align: center;
     }
 
-
+    p {
+      padding: 0.75rem;
+    }
 
     br {
       padding: 10px;
@@ -137,9 +139,37 @@
         border-radius: 5px;
       }
 
+      section {
+        max-width: 600px;
+        margin: .5rem auto;
+        border:1px solid #bbb;
+        background-color: #d9dad7;
+        width: 75%;
+      }
       
-     
+      article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      
+      article:nth-child(odd) img {
+        grid-column: 2;
+      }
+      
+      article:nth-child(odd) .data {
+        grid-column: 1;
+        grid-row: 1;
+      }
+      
+      img {
+        width: 100%; height: auto;padding:0;
+      }
 
+      .data {
+        background-color: #1a2639; 
+        color: #d9dad7;
+      }
+      
 
 
 }
