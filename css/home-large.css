@@ -185,7 +185,15 @@
       
       .card {
         width: 375px;
+        display: flex;
+        flex-flow: column;
       }
+
+      .card:nth-child(even) {
+        flex-flow: column;
+    }
+
+      
      
 
 
