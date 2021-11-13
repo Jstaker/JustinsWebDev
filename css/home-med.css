@@ -1,19 +1,39 @@
 @media only screen and (min-width: 650px) {
 
     
-   
+    
 
     img {
         width: 248px; 
         height: 200px;
       }
 
-      .card {
-        width: 250px; 
-      }
+
+      
+      
 
       #cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+          display: grid;
+          grid-template-columns: 1fr;
+
+      }
+
+      .card {
+        width: 250px; 
+        display: flex; 
+        flex-flow: row;
+        width: auto;
+      }
+
+      .card:nth-child(even) {
+          flex-flow: row-reverse;
+      }
+
+      
+
+      
+
+      
+
+      
 }
