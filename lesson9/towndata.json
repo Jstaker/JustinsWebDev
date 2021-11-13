@@ -4,7 +4,7 @@
     
     {
       "name": "Preston",
-      "photo": "../lesson9/images/preston.png",
+      "photo": "../media/preston.png",
       "motto": "Home of Napoleon Dynamite.",
       "yearFounded": 1866,
       "currentPopulation": 5204,
@@ -17,7 +17,7 @@
     },
     {
       "name": "Soda Springs",
-      "photo": "../lesson9/images/valley.jpeg",
+      "photo": "../media/valley.jpeg",
       "motto": "Historic Oregon Trail Oasis.",
       "yearFounded": 1858,
       "currentPopulation": 2985,
@@ -31,7 +31,7 @@
 
     {
       "name": "Fish Haven",
-      "photo": "../lesson9/images/iron-creek.jpeg",
+      "photo": "../media/iron-creek.jpeg",
       "motto": "This is Fish Heaven.",
       "yearFounded": 1864,
       "currentPopulation": 501,
