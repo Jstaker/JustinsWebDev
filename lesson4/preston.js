@@ -32,25 +32,24 @@ if (weekday == "Friday"){
 }
 
 
-//wind chill
-let speed = 25;
-let temp = 10;
-buildWC(speed, temp);
-
-function buildWC(speed, temp){
-    let feelTemp = document.getElementById('feelTemp');
-
-    let wc = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
-    console.log(wc);
-
-    wc = Math.floor(wc);
-
-    wc = (wc > temp) ? temp : wc;
-    console.log(wc);
-
-    feelTemp.innerHTML = "Feels Like: " + wc + "\u00B0 F";
-}
 
 function adjustSeverity(rating) {
     document.getElementById("ratingvalue").innerHTML = rating;
 }
+
+//weather API for dynamic weather information
+const path = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=32da1ad47e5892254b0ea3b138b544bb";
+
+
+
+fetch(path)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+    document.getElementById('current').textContent = jsObject.list[0].main.temp;
+    document.getElementById('high').textContent = jsObject.list[0].main.temp_max;
+    document.getElementById('feels-like').textContent = jsObject.list[0].main.feels_like;
+    document.getElementById('humidity').textContent = jsObject.list[0].main.humidity;
+    document.getElementById('wind-speed').textContent = jsObject.list[0].wind.speed;
+
+});
