@@ -46,11 +46,11 @@ fetch(currentPath)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
+    document.getElementById('desc').textContent = jsObject.list[0].weather[0].description;
     document.getElementById('current').textContent = Math.round(jsObject.list[0].main.temp);
-    document.getElementById('high').textContent = Math.round(jsObject.list[0].main.temp_max);
-    document.getElementById('feels-like').textContent = Math.round(jsObject.list[0].main.feels_like);
     document.getElementById('humidity').textContent = Math.round(jsObject.list[0].main.humidity);
     document.getElementById('wind-speed').textContent = Math.round(jsObject.list[0].wind.speed);
+    document.getElementById('feels-like').textContent = Math.round(jsObject.list[0].main.feels_like);
 
 
     //fiveday forecast
