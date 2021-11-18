@@ -38,18 +38,35 @@ function adjustSeverity(rating) {
 }
 
 //weather API for dynamic weather information
-const path = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=32da1ad47e5892254b0ea3b138b544bb";
+const currentPath = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=32da1ad47e5892254b0ea3b138b544bb";
 
 
 
-fetch(path)
+fetch(currentPath)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    document.getElementById('current').textContent = jsObject.list[0].main.temp;
-    document.getElementById('high').textContent = jsObject.list[0].main.temp_max;
-    document.getElementById('feels-like').textContent = jsObject.list[0].main.feels_like;
-    document.getElementById('humidity').textContent = jsObject.list[0].main.humidity;
-    document.getElementById('wind-speed').textContent = jsObject.list[0].wind.speed;
+    document.getElementById('current').textContent = Math.round(jsObject.list[0].main.temp);
+    document.getElementById('high').textContent = Math.round(jsObject.list[0].main.temp_max);
+    document.getElementById('feels-like').textContent = Math.round(jsObject.list[0].main.feels_like);
+    document.getElementById('humidity').textContent = Math.round(jsObject.list[0].main.humidity);
+    document.getElementById('wind-speed').textContent = Math.round(jsObject.list[0].wind.speed);
 
-});
+
+    //fiveday forecast
+    const forecastfive = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+    const weekdays = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
+    let i = 1;
+    forecastfive.forEach(forecast => {
+    const day = forecast.dt_txt;
+    let d = new Date(day).getDay()
+    const srcset = `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
+    document.querySelector(`#day${i}`).textContent = weekdays[d];
+    document.querySelector(`#content${i}`).innerHTML = Math.round(forecast.main.temp) +"&deg;F"; 
+    document.querySelector(`#img${i}`).setAttribute('src', srcset);
+    document.querySelector(`#img${i}`).setAttribute('alt', forecast.weather[0].description);
+       i++; 
+    });
+    });
+
+

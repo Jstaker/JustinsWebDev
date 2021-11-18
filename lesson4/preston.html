@@ -40,7 +40,7 @@
                 </picture>
                 <section class="summary">
                     <h2 style="font-size: 20px; color: #d9dad7;">Weather Summary</h2>
-                    <p>Currently: <span id="current"></span></p>
+                    <p>Currently: <span id="current"></span>&deg;F</p>
                     <p>High: <span id="high"></span>&deg;F</p>
                     <p>Feels Like: <span id="feels-like"></span>&deg;F</p>
                     <p>Humidity: <span id="humidity"></span>%</p>
@@ -53,39 +53,39 @@
                 <table class="table">
                     <thead>
                         <tr class="fiveday">
-                            <th class="th">Mon</th>
-                            <th class="th">Tues</th>
-                            <th class="th">Wed</th>
-                            <th class="th">Thurs</th>
-                            <th class="th">Fri</th>
+                            <th class="th"><span id="day1"></span></th>
+                            <th class="th"><span id="day2"></span></th>
+                            <th class="th"><span id="day3"></span></th>
+                            <th class="th"><span id="day4"></span></th>
+                            <th class="th"><span id="day5"></span></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="fivecast-style">
-                                <img src="../media/snowing.png" alt="snow img">
+                                <img src="#" alt="" id="img1">
                                 <br>
-                                <span class="degreem">12&deg;F</span>
+                                <span class="degreem" id="content1"></span>
                             </td>
                             <td class="fivecast-style">
-                                <img src="../media/snowing.png" alt="snow img">
+                                <img src="#" alt="" id="img2">
                                 <br>
-                                <span class="degreet">13&deg;F</span>
+                                <span class="degreet" id="content2"></span>
                             </td>
                             <td class="fivecast-style">
-                                <img src="../media/snowing.png" alt="snow img">
+                                <img src="#" alt="" id="img3">
                                 <br>
-                                <span class="degreew">8&deg;F</span>
+                                <span class="degreew" id="content3"></span>
                             </td>
                             <td class="fivecast-style">
-                                <img src="../media/snowing.png" alt="snow img">
+                                <img src="#" alt="" id="img4">
                                 <br>
-                                <span class="degreeth">7&deg;F</span>
+                                <span class="degreeth" id="content4"></span>
                             </td>
                             <td class="fivecast-style">
-                                <img src="../media/snowing.png" alt="snow img">
+                                <img src="#" alt="" id="img5">
                                 <br>
-                                <span class="degreef">-3&deg;F</span>
+                                <span class="degreef" id="content5">-</span>
                             </td>
                         </tr>
                     </tbody>
