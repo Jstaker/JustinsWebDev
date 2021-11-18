@@ -38,7 +38,7 @@ function adjustSeverity(rating) {
 }
 
 //weather API for dynamic weather information
-const currentPath = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=32da1ad47e5892254b0ea3b138b544bb";
+const currentPath = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=32da1ad47e5892254b0ea3b138b544bb";
 
 
 
