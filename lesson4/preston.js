@@ -54,10 +54,10 @@ fetch(currentPath)
 
 
     //fiveday forecast
-    const forecastfive = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+    const fiveCast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
     const weekdays = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
     let i = 1;
-    forecastfive.forEach(forecast => {
+    fiveCast.forEach(forecast => {
     const day = forecast.dt_txt;
     let d = new Date(day).getDay()
     const srcset = `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
